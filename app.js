@@ -8,6 +8,7 @@ const btnReiniciar = document.getElementById("reiniciar")
 const btnDecrementar = document.getElementById("decrementar")
 
 
+
 //Usar el evento onclick en el boton de incremnetar
 btnIncrementar.onclick = function () {
     contador++; //aumento el contador en 1
