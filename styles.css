@@ -12,26 +12,25 @@ body {
     align-items: center;
     height: 100vh;
     font-family: "Poppins", sans-serif;
-    background: #bbd2c5;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #292e49, #536976, #bbd2c5);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #292e49, #536976, #bbd2c5);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     text-align: center;
+    color: aliceblue;
 }
 
 .container {
-    background-color: hsl(0, 0%, 100%);
     width: 750px;
-    height: 550px;
+    height: 500px;
     padding: 20px;
     border-radius: 20px;
-    border-radius: 20px;
+    background-color: #00305f;
+
+
 }
 
 h1 {
     font-size: 85px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    color: #00305f;
 }
 
 #valor {
@@ -51,6 +50,7 @@ h1 {
 
 .btn:hover {
     transform: scale(1.05);
+    transition: 0.7s;
 }
 
 #incrementar {
@@ -80,10 +80,10 @@ h1 {
     }
   }
 
-  @media screen and (max-width: 505px) {
+@media screen and (max-width: 505px) {
 
     .container {
-        height: 520px;
+        height: 480px;
     }
     
     h1 {
@@ -95,10 +95,10 @@ h1 {
     }
   }
 
-  @media screen and (max-width: 450px) {
+@media screen and (max-width: 450px) {
 
     .container {
-        height: 520px;
+        height: 460px;
     }
     
     h1 {
@@ -107,6 +107,39 @@ h1 {
 
     .btn {
         font-size: 20px;
-        padding: 10px;
+        padding: 15px;
+    }
+  }
+
+  @media screen and (max-width: 428px) {
+
+    .container {
+        height: 550px;
+    }
+    
+    h1 {
+      font-size: 45px;
+    }
+
+    .btn {
+        font-size: 20px;
+        padding: 15px;
+    }
+  }
+
+  @media screen and (max-width: 376px) {
+
+    .container {
+        height: 620px;
+        width: 360px;
+    }
+    
+    h1 {
+      font-size: 50px;
+    }
+
+    .btn {
+        font-size: 25px;
+        padding: 12px;
     }
   }
